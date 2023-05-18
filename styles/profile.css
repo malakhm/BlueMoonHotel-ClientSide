@@ -1315,10 +1315,11 @@ th {
 }
 
 td {
-    font-size: large;
+    font-size: 100%;
     font-family: 'Roboto' , sans-serif;
     font-weight: 700;
     color: white;
+    -webkit-text-stroke: 1px #000;
 }
 
 
