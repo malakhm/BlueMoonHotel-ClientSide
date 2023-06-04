@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="styles/gymsubsc.css">
+</head>
+
+<body>
+
+    <div id="signup_header">
+        <div>
+            
+            <img class="img1" src="images/gym12.jpeg" alt="">
+            
+            <div id="signup_form">
+                <a href="gym.html" class="back"> Back</a>
+                <form method="post" action="signup.php">
+                    <table id="table3" border="0">
+                        <tr>
+                            <th>Name : </th>
+                            <td>
+                                <input class="signup6" type="text" name="fname" size="20" placeholder="First Name"
+                                    required />&nbsp;&nbsp;
+                                <input class="signup6" type="text" name="lname" size="20" placeholder="Last Name"
+                                    required />
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>
+                                Date of Birth :
+                            </th>
+                            <td>
+                                <input class="signup6" type="date" name="dob" required />
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Phone Number : </th>
+                            <td>
+                                <input class="signup6" type="text" name="areacode" size="10" placeholder="Area Code"
+                                    required />&nbsp;&nbsp;
+                                <input class="signup6" type="text" name="number" size="30" placeholder="Phone Number"
+                                    required />
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Email : </th>
+                            <td>
+                                <input class="signup6" type="email" name="email" size="44" placeholder="Email"
+                                    required />
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Gender : </th>
+                            <td>
+                                <input type="radio" name="gen" class="gend">Male</input>
+                                <input type="radio" name="gen" class="gend">Female</input>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Subscription for: </th>
+                            <td>
+                                <select class="gymselect">
+                                    <option>1 Month</option>
+                                    <option>3 Months</option>
+                                    <option>6 Months</option>
+                                    <option>1 Year</option>
+                                </select>
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" align="center">
+                                <input class="signup7" type="submit" id="signup_button" value="Subscribe" />
+                            </td>
+                        </tr>
+
+                    </table>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
