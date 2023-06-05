@@ -50,7 +50,6 @@
               <li class="scroll-to-section"><a href="index.html" class="active">Home</a></li>
               <li class="scroll-to-section"><a href="#features">About</a></li>
               <li class="scroll-to-section"><a href="contact.html">Contact</a></li>
-              <li class="main-button"><a href="Login.html">Log In</a></li>
             </ul>
             <a class='menu-trigger'>
               <span>Menu</span>
@@ -75,7 +74,7 @@
         <h6>work harder, get stronger</h6>
         <h2>easy with our <em>gym</em></h2>
         <div class="main-button scroll-to-section">
-          <a href="gymsubsc.html">Become a member</a>
+          <a href="#signup_header">Become a member</a>
         </div>
       </div>
     </div>
@@ -104,8 +103,8 @@
         </p>
       </div>
       <div class="about-img">
-        <img src="images/gym8.jpeg" /><img src="images/gym9.jpeg" />
-        <img src="images/gym1.jpeg" /><img src="images/gym10.jpeg" />
+        <img src="images/gym8.jpeg" /><img src="images/gym9.jpeg" /><img src="images/gym3.jpeg" />
+        <img src="images/gym1.jpeg" /><img src="images/gym10.jpeg" /><img src="images/gym6.jpeg" />
       </div>
     </div>
     <div class="about-text2">
@@ -123,6 +122,78 @@
     </div>
   </div>
   <!-- ***** Features Item End ***** -->
+
+  <div id="signup_header">
+    <div>  
+        <img class="img1" src="images/gym12.jpeg" alt="">
+        
+        <div id="signup_form">
+            <form method="post" action="signup.php">
+                <table id="table3" border="0">
+                    <tr>
+                        <th>Name : </th>
+                        <td>
+                            <input class="signup6" type="text" name="fname" size="20" placeholder="First Name"
+                                required />&nbsp;&nbsp;
+                            <input class="signup6" type="text" name="lname" size="20" placeholder="Last Name"
+                                required />
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            Date of Birth:
+                        </th>
+                        <td>
+                            <input class="signup6" type="date" name="dob" required />
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Phone Number : </th>
+                        <td>
+                            <input class="signup6" type="text" name="areacode" size="10" placeholder="Area Code"
+                                required />&nbsp;&nbsp;
+                            <input class="signup6" type="text" name="number" size="30" placeholder="Phone Number"
+                                required />
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Email : </th>
+                        <td>
+                            <input class="signup6" type="email" name="email" size="44" placeholder="Email"
+                                required />
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Gender : </th>
+                        <td>
+                            <input type="radio" name="gen" class="gend">Male</input>
+                            <input type="radio" name="gen" class="gend">Female</input>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Subscription for: </th>
+                        <td>
+                            <select class="gymselect">
+                                <option>1 Month</option>
+                                <option>3 Months</option>
+                                <option>6 Months</option>
+                                <option>1 Year</option>
+                            </select>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="center">
+                            <input class="signup7" type="submit" id="signup_button" value="Subscribe" />
+                        </td>
+                    </tr>
+
+                </table>
+
+            </form>
+        </div>
+    </div>
+</div>
 
   <h3>Subscription Fees</h3>
   <div class="fees">
